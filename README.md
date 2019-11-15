@@ -40,14 +40,29 @@ Estilos
 
 Validar
 
+![image](https://user-images.githubusercontent.com/52549697/68947514-a5ae5f80-0783-11ea-96f3-e5b4ace99ede.png)
+![image](https://user-images.githubusercontent.com/52549697/68947555-c7a7e200-0783-11ea-838d-1d300084d0f8.png)
+![image](https://user-images.githubusercontent.com/52549697/68947589-e1492980-0783-11ea-9068-723e6ab8e14a.png)
+![image](https://user-images.githubusercontent.com/52549697/68947655-03db4280-0784-11ea-8df7-6236f39eb110.png)
+![image](https://user-images.githubusercontent.com/52549697/68947721-24a39800-0784-11ea-9cd4-dd5de73340ed.png)
+![image](https://user-images.githubusercontent.com/52549697/68947766-40a73980-0784-11ea-8196-ecc040fe96ec.png)
+![image](https://user-images.githubusercontent.com/52549697/68947798-54eb3680-0784-11ea-862e-5d5271b9d715.png)
 
 Galería
 
 Galería
+
+![image](https://user-images.githubusercontent.com/52549697/68948541-18203f00-0786-11ea-8c14-3bf6e31feeda.png)
+
 
 Estilos
 
+![image](https://user-images.githubusercontent.com/52549697/68948833-c330f880-0786-11ea-8f8f-7ab42b16f363.png)
+![image](https://user-images.githubusercontent.com/52549697/68948878-e3f94e00-0786-11ea-869d-943a7216c024.png)
+
 Movimiento
+![image](https://user-images.githubusercontent.com/52549697/68949206-8addea00-0787-11ea-8a4f-bc72ffd0548f.png)
+
 
 5.1	El desarrollo de cada uno de los requerimientos antes descritos.
 5.2	La evidencia del correcto diseño de las páginas HTML usando CSS
