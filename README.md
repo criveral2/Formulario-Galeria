@@ -24,6 +24,7 @@ Crear sitios web aplicando estándares actuales</pre>
 ![image](https://user-images.githubusercontent.com/52549697/68945965-b6f56d00-077f-11ea-95b1-9d43f758026e.png)
 
 5.	Generar informe de los resultados en el formato de prácticas.
+5.1	El desarrollo de cada uno de los requerimientos antes descritos.
 
 Logeo 
 
@@ -62,12 +63,32 @@ Estilos
 
 Movimiento
 ![image](https://user-images.githubusercontent.com/52549697/68949206-8addea00-0787-11ea-8a4f-bc72ffd0548f.png)
+![image](https://user-images.githubusercontent.com/52549697/68949291-b9f45b80-0787-11ea-9829-ea2728dfe681.png)
 
-
-5.1	El desarrollo de cada uno de los requerimientos antes descritos.
 5.2	La evidencia del correcto diseño de las páginas HTML usando CSS
+
+Logeo
+
+![image](https://user-images.githubusercontent.com/52549697/68949591-574f8f80-0788-11ea-8a30-efecc95b5e50.png)
+
+Galeria
+
+![image](https://user-images.githubusercontent.com/52549697/68949982-3b98b900-0789-11ea-9c51-61f599cc6db1.png)
+
 5.3	La evidencia del correcto funcionamiento de cada una de las funciones de JavaScript
+
+Logeo
+![image](https://user-images.githubusercontent.com/52549697/68950082-6a169400-0789-11ea-8c79-e5d78182cdc4.png)
+![image](https://user-images.githubusercontent.com/52549697/68950233-bc57b500-0789-11ea-9cce-3b641eef3ef6.png)
+
+Galeria
+
+![image](https://user-images.githubusercontent.com/52549697/68950333-ef9a4400-0789-11ea-9960-cd469274fee5.png)
+![image](https://user-images.githubusercontent.com/52549697/68950350-f88b1580-0789-11ea-981e-b485d92b32db.png)
+
+
 5.4	Incluir la información de GitHub (usuario y URL del repositorio de la práctica)  
+
 <pre>
 RESULTADO(S) OBTENIDO(S):
 Tener el conocimiento suficiente para que el estudiante pueda entender y organizar de una mejor manera los sitios de web y de negocios en Internet
