@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Contacto</title>
+        <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+        <script src="validar.js"></script>
+        <link rel="stylesheet" href="estilos.css">
+    </head>
+    <body onload="init();">
+        <section>
+            <header>
+                <i  class='fas fa-user' style="font-size:100px ; " ></i>
+                <h1 style="text-align: center;">Contacto</h1>
+            </header>
+            <form action="">
+                <h3>Nombre :</h3>
+                <input type="text" placeholder="Nombre" id="nombre" >
+                <span id="errorNombre" style="color: rgb(240, 21, 21);"></span>
+
+                <h3>Apellido :</h3>
+                <input type="text" placeholder="Apellido" id="apellido">
+                <span id="errorApellido" style="color: rgb(224, 16, 16);"></span>
+
+                <h3>Cedula :</h3>
+                <input type="text" placeholder="Cedula" id="cedula">
+                <span id="errorCedula" style="color: rgb(240, 10, 10);"></span>
+
+                <h3>Telefono :</h3>
+                <input type="text" placeholder="Telefono" id="telefono">
+                <span id="errorTelefono" style="color: rgb(238, 16, 16);"></span>
+
+                <h3>Direccion :</h3>
+                <input type="text" placeholder="Direccion" id="direccion">
+                <span id="errorDireccion" style="color: rgb(241, 15, 15);"></span>
+
+                <h3>Fecha de nacimiento :</h3>
+                <input type="text" placeholder="dd/mm/yyyy" id="fecha">
+                <span id="errorFecha" style="color: rgb(241, 15, 15);"></span>
+
+                <h3>Correo :</h3>
+                <input type="text" placeholder="Correo" id="correo">
+                <span id="errorCorreo" style="color: rgb(241, 15, 15);"></span>
+
+                <h3>Contraseña :</h3>
+                <input type="text" placeholder="Contraseña" id="contrasenia">
+                <span id="errorContrasenia" style="color: rgb(241, 15, 15);"></span>
+
+                <div>
+                    <input type="button" class="boton" id="boton" value="Enviar"> 
+                </div>
+                
+
+              
+            </form>
+
+        </section>
+        <footer id="estilo">
+            <!--<hr> es una etiqueta que no permitira generar una linea recta como una regleta en nuestra pagina web-->
+            <hr />
+            <p class="pie">Christian Geovanny Rivera Loja<br>
+                Universidad Politécnica Salesiana<br>
+                <!--&nbsp; es codigo que nos permitira obtener un espacio en blanco en html-->
+                mail:&nbsp;<a href="mailto:criveral2@est.ups.edu.ec">criveral2@est.ups.edu.ec</a><br>
+                telefono:&nbsp;<a href="tel:0991748263">0991748263</a><br>
+                <!--&#169; este codigo permitira generar el simbolo de copyright -->
+                  &#169;Todos los derechos reservados</p>
+        </footer>
+        
+    </body>
+</html>
