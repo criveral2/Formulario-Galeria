@@ -1,3 +1,4 @@
+/* definimos variables globales que utilizaremos en nuestro .js*/ 
 var cedula;
 var nombre;
 var apellido;
@@ -6,11 +7,15 @@ var fech;
 var cor;
 var contra;
 
+/*creamos una funcion que nos abarcara la mayor parte de las validaciones*/
 function validarvacios() {
     var bandera = true;
+    /*Creamos un for que nos recorrera todos los elmentos de nuestra html */
     for (var i = 0; i < document.forms[0].elements.length; i++) {
         var elemento = document.forms[0].elements[i]
+        /*seleccionamos todoslos elementos de tipo text y comparamos si estos estan vacios */
         if (elemento.value == '' && elemento.type == 'text') {
+            /*Si los elementos se encuentran vacios mostrara un  mensaje de error en nuestras etiquetas spam */
             if (elemento.id == 'nombre') {
                 document.getElementById('errorNombre').style = 'display:block; color:white;'
                 document.getElementById('errorNombre').innerHTML = 'Campo vacio'
@@ -55,10 +60,12 @@ function validarvacios() {
         
         } else {
 
+            /*se leeel dato de nuestra etiqueta cedula y posteriormente se la envia a nuestra funcion de validar cedula */
 
 
             if(elemento.id == 'cedula'){
                 cedula = document.getElementById("cedula").value;
+                /*si nuestra cedula esigual a 10 procede a ingresar a nuestro metodo de validacion */
                 if (validarnumero(cedula)==false) {
                     document.getElementById('errorCedula').style = 'display:block; color:rgb(238, 16, 16); font-size:20px;'
                     document.getElementById('errorCedula').innerHTML = '<b>No se permite letras'
@@ -67,6 +74,8 @@ function validarvacios() {
                 }
 
             }
+
+            /* el siguiente if compara si los elementos ingresados son de tipo numerico */
             if (elemento.id == 'nombre') {
                 document.getElementById('errorNombre').style = 'display:none;'
                 nombre = document.getElementById("nombre").value;
@@ -75,6 +84,7 @@ function validarvacios() {
                     document.getElementById('errorNombre').innerHTML = '<b>No se permite numeros</b>'
                 }
             }
+             /* el siguiente if compara si los elementos ingresados son de tipo numerico */
             if (elemento.id == 'apellido') {
                 document.getElementById('errorApellido').style = 'display:none;'
                 apellido = document.getElementById("apellido").value;
@@ -88,11 +98,12 @@ function validarvacios() {
             if (elemento.id == 'telefono') {
                 document.getElementById('errorTelefono').style = 'display:none;'
                 numero= document.getElementById("telefono").value;
-                
+                /*compararemos si todos los datos son de tipo numericos */
                 if (validarnumero(numero) == false) {
                     document.getElementById('errorTelefono').style = 'display:block; color:rgb(238, 16, 16); font-size:20px;'
                     document.getElementById('errorTelefono').innerHTML = '<b>Revise nuevamente su numero telefonico</b>'
                 }
+                /*Nos aseguramos de que nuestro telefono tenga un maximo de 10 */
                 if (numero.length < 10) {
                     document.getElementById('errorTelefono').style = 'display:block; color:rgb(238, 16, 16); font-size:20px;'
                     document.getElementById('errorTelefono').innerHTML = '<b>Revise nuevamente su numero telefonico</b>'

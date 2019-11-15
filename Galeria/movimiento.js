@@ -8,14 +8,11 @@ imagen7 = '<img src="image/img7.jpg" height="400px" width="450px" />'
 imagen8 = '<img src="image/img8.jpg" height="400px" width="450px" />'
 imagen9 = '<img src="image/img9.jpg" height="400px" width="450px" />'
 imagen10 = '<img src="image/img10.jpg" height="400px" width="450px" />'
-
-var fotos = [imagen1, imagen2, imagen3, imagen4, imagen5, imagen6, imagen7, imagen8, imagen9, imagen10];
-
 var aleatorios = new Array(5);
 var numeroImagen = 0;
 
 
-
+var fotos = [imagen1, imagen2, imagen3, imagen4, imagen5, imagen6, imagen7, imagen8, imagen9, imagen10];
 
 function iniciar() {
     numeroImagen = 0;
@@ -79,11 +76,6 @@ function anterior() {
 function aleatoriosR(elementos) {
 
     var numaletorios=numerosAleatorios(elementos)
-    console.log(numaletorios[0])
-    console.log(numaletorios[1])
-    console.log(numaletorios[2])
-    console.log(numaletorios[3])
-    console.log(numaletorios[4])
 
     for (var i = 0; i < 5; i++){
         aleatorios[i]=fotos[numaletorios[i]]

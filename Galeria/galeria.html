@@ -4,29 +4,43 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
     <link rel="stylesheet" href="estilos.css">
     <script src="movimiento.js"></script>
-    <title>Document</title>
+    <title>Galeria</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 </head>
 
 <body>
     <header>
+
         <h1 style="font-size: 60px;">Galeria </h1>
+
+        
     </header>
     
     
 
     <div class="containerI">
         <div class="cont1" id='imagen'>
+            <!--definimos una imagen como inicio-->
             <img src="image/imagen.jpg" height="400px" width="450px">
         </div>
         <br>
         <div class="cont">
-            <input type="submit" class="anterior" id="anterior" name="anterior" value="Anterior" onclick="anterior()" />
-            <input type="submit" class="iniciar" id="iniciar" name="iniciar" value="Iniciar" onclick="iniciar()" />
-            <input type="submit" class="siguiente" id="siguiente" name="siguiente" value="Siguiente" onclick="siguiente()" />
+            <!--creamos inputs los cuales nos serviran para generar el movimiento de las imagenes-->
+            <!--type="submit" nos indica que actuara como un disparador para resivir una accion de una funcion-->
+           
+            <input type="submit" class="anterior" id="anterior"value="Atras" onclick="anterior()" />
+             <!--class="anterior" es una clase que nos permitira dar un estilo al componente-->
+            <!--id="anterior" podra ser referenciada en el archivo .jspara su manipulacion-->
+          
+            <input type="submit" class="iniciar" id="iniciar"  value="Iniciar" onclick="iniciar()" />
+              <!--value="Atras" nos permite definir un nombre a nuestro input-->
+            <!--onclick="anterior() nos permite llamar a la funcion especificada-->
+            <input type="submit" class="siguiente" id="siguiente" value="Adelante" onclick="siguiente()" />
 
         </div>
 

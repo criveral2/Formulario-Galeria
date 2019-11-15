@@ -3,18 +3,23 @@
     <head>
         <meta charset="utf-8">
         <title>Contacto</title>
+        <!--LLamamos a los metodos javascrip que se va a utilizar para nuestra pagina web-->
         <script src='https://kit.fontawesome.com/a076d05399.js'></script>
         <script src="validar.js"></script>
         <link rel="stylesheet" href="estilos.css">
     </head>
+
+    <!--onload en la etiqueta body nos permite iniciar todas las funciones denUestro .js-->
     <body onload="init();">
         <section>
             <header>
+                <!--la etiqueta i nos permite utilizar un icono de una repositorio en la nuve-->
                 <i  class='fas fa-user' style="font-size:100px ; " ></i>
                 <h1 style="text-align: center;">Contacto</h1>
             </header>
             <form action="">
                 <h3>Nombre :</h3>
+                <!--la etiqueta  placeholder nos permite mostrar un texto en el text area de una etiqueta input-->
                 <input type="text" placeholder="Nombre" id="nombre" >
                 <span id="errorNombre" style="color: rgb(240, 21, 21);"></span>
 
@@ -23,6 +28,7 @@
                 <span id="errorApellido" style="color: rgb(224, 16, 16);"></span>
 
                 <h3>Cedula :</h3>
+                <!--la etiqueta input es una etiqueta de entrada que se puede manipular-->
                 <input type="text" placeholder="Cedula" id="cedula">
                 <span id="errorCedula" style="color: rgb(240, 10, 10);"></span>
 
@@ -31,6 +37,7 @@
                 <span id="errorTelefono" style="color: rgb(238, 16, 16);"></span>
 
                 <h3>Direccion :</h3>
+                <!--id es una etiqueta que nos permite referenciar el valor tanto como en css como en javascript-->
                 <input type="text" placeholder="Direccion" id="direccion">
                 <span id="errorDireccion" style="color: rgb(241, 15, 15);"></span>
 
@@ -39,11 +46,14 @@
                 <span id="errorFecha" style="color: rgb(241, 15, 15);"></span>
 
                 <h3>Correo :</h3>
+                <!--type es un complemento de la etiqueta input que nos permite dar el tipo qu etomara la etiqueta-->
                 <input type="text" placeholder="Correo" id="correo">
                 <span id="errorCorreo" style="color: rgb(241, 15, 15);"></span>
 
                 <h3>Contraseña :</h3>
                 <input type="text" placeholder="Contraseña" id="contrasenia">
+                <!--es una etiqueta que nos permite mostrar un error sin envargo esta no ocupa espacio en nuetro sitio
+                , se muestra una vez se a mandado a rellenarlo-->
                 <span id="errorContrasenia" style="color: rgb(241, 15, 15);"></span>
 
                 <div>

@@ -5,6 +5,7 @@
     color: rgb(123, 127, 172);
 }
 
+/*Creamos un color degradado para nuetro fondo de pantalla*/
 
 body{
     
@@ -33,12 +34,12 @@ body{
  
 }
 
-h1{
-    color: rgb(3, 3, 3);
-}
+
+
 
 .input, .anterior, .iniciar, .siguiente{
-	background-color:rgb(24, 12, 12);
+    background-color:rgb(24, 12, 12);
+    border-radius: 1rem;
 	padding: .5rem;
 	margin: .5rem 0;
 	border: none;

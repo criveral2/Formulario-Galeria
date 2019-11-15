@@ -4,6 +4,7 @@
     box-sizing: border-box;
     color: rgb(123, 127, 172);
 }
+/*Agregamos un estilo para modificar  todo el body*/
 
 body{
     background-image: url(img/fondo.jpg!d);
@@ -16,6 +17,7 @@ body{
     justify-content: center;
 
 }
+/*damos un estilo para nuestros campos de ingreso*/
 input, textarea{
     width: 100%;
     border-radius: 10px;
@@ -24,7 +26,7 @@ input, textarea{
 }
 
 
-
+/*damosun estilo a nuetro cuadro de formulario*/
 section{
     border-radius: 15px;
     margin-top: 2%;
@@ -41,7 +43,7 @@ h3{
     font-size: 100%;
 }
 
-
+/*Damos estilos generales a texto como a complementos*/
 
 form h3{
     text-align: left;
