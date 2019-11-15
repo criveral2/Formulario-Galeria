@@ -5,9 +5,8 @@
 NRO. PRÁCTICA:	2	
 TÍTULO PRÁCTICA: Resolución de problemas sobre JavaScript
 OBJETIVO ALCANZADO:
-Entender y organizar de una mejor manera los sitios de web en Internet 
-Diseñar adecuadamente elementos gráficos en sitios web en Internet. 
-Crear sitios web aplicando estándares actuales</pre>
+Entender y organizar el manejo de sitios web en Internet utilizando diferentes lenguajes y aplicando estándares 
+actuales para diseñar adecuadamente elementos gráficos en el sitio.</pre>
 
                                             ACTIVIDADES DESARROLLADAS
 1.	Crear un repositorio en GitHub con el nombre “Practica03 – Javascript”
@@ -88,13 +87,17 @@ Galeria
 
 
 5.4	Incluir la información de GitHub (usuario y URL del repositorio de la práctica)  
+Usuario: criveral2
+Proyecto Practica03-Javascript: https://github.com/criveral2/Practica03-Javascript.git
+
 
 <pre>
 RESULTADO(S) OBTENIDO(S):
-Tener el conocimiento suficiente para que el estudiante pueda entender y organizar de una mejor manera los sitios de web y de negocios en Internet
+Aplicar el conocimiento adquirido de las diferentes sesiones de clases y de documentos relacionados al tema para organizar de una mejor manera los sitios de web y de negocios en Internet.
 
 CONCLUSIONES:
-Los estudiantes podrán organizar sitios web basados en el lenguaje de etiquetado HTML, CSS y JavaScrip
+Ampliar el manejo de sitios web basados en el lenguaje de etiquetado HTML, CSS y JavaScrip
+
 RECOMENDACIONES:
 Probar la solución de la práctica en al menos tres navegadores web; Google Chrome, Firefox y Safari
 
