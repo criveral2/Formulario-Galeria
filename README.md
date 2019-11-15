@@ -28,18 +28,20 @@ actuales para diseñar adecuadamente elementos gráficos en el sitio.</pre>
 Logeo 
 
 Contacto
+Se procede a crear un cuerpo de nuestra página html donde se especificara los capos para ingresar los datos.
 ![image](https://user-images.githubusercontent.com/52549697/68946645-7dbdfc80-0781-11ea-88ce-688a4ecfacdd.png)
 ![image](https://user-images.githubusercontent.com/52549697/68946690-97f7da80-0781-11ea-843d-4fca893bace1.png)
 
 
 Estilos
+Generaremos estilos para mejorar la apariencia de nuestra página de logeo
 
 ![image](https://user-images.githubusercontent.com/52549697/68946886-089ef700-0782-11ea-8f39-c0393962558e.png)
 ![image](https://user-images.githubusercontent.com/52549697/68946916-1eacb780-0782-11ea-9147-12acb3ef0241.png)
 
 
 Validar
-
+Creamos un archivo .js el cual contendrá los métodos que nos ayudaran a validar los campo input.
 ![image](https://user-images.githubusercontent.com/52549697/68947514-a5ae5f80-0783-11ea-96f3-e5b4ace99ede.png)
 ![image](https://user-images.githubusercontent.com/52549697/68947555-c7a7e200-0783-11ea-838d-1d300084d0f8.png)
 ![image](https://user-images.githubusercontent.com/52549697/68947589-e1492980-0783-11ea-9068-723e6ab8e14a.png)
