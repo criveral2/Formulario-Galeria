@@ -79,6 +79,8 @@ Galeria
 5.3	La evidencia del correcto funcionamiento de cada una de las funciones de JavaScript
 
 Logeo
+Se puede observar que los campos se encuentran enmarcados en color rojo debido a que la función empleada permitirá manipulas los datos ingresados y esta si es vacío mostrara un mensaje de error.
+
 ![image](https://user-images.githubusercontent.com/52549697/68950082-6a169400-0789-11ea-8c79-e5d78182cdc4.png)
 ![image](https://user-images.githubusercontent.com/52549697/68950233-bc57b500-0789-11ea-9cce-3b641eef3ef6.png)
 
